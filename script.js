@@ -20,7 +20,7 @@ document.getElementById("upload-form").addEventListener("submit", async function
 
     try {
         // Send POST request to backend
-        const response = await fetch("http://127.0.0.1:5000/predict", {
+        const response = await fetch("https://your-app-name.onrender.com/predict", {
             method: "POST",
             body: formData,
         });
@@ -38,3 +38,4 @@ document.getElementById("upload-form").addEventListener("submit", async function
         console.error("Error:", error);
     }
 });
+
