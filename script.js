@@ -20,7 +20,7 @@ document.getElementById("upload-form").addEventListener("submit", async function
 
     try {
         // Send POST request to backend
-        const response = await fetch("https://your-app-name.onrender.com/predict", {
+        const response = await fetch("https://ai-resume-backend-3.onrender.com", {
             method: "POST",
             body: formData,
         });
