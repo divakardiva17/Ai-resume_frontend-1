@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Screening</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Resume Screening</h1>
+        <p>Upload your resume to check if it matches the required profile.</p>
+
+        <form id="upload-form" enctype="multipart/form-data">
+            <input type="file" id="resume-file" name="resume" accept=".pdf,.txt,.docx" required>
+            <button type="submit">Upload Resume</button>
+        </form>
+
+        <div id="result">
+            <!-- The result will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
